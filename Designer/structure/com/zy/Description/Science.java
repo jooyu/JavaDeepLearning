@@ -4,7 +4,7 @@ public class Science  extends GirlDecorator{
 
 	
 	private Girl gril;
-	private Science (Girl girl)
+	public Science (Girl girl)
 	{
 		this.gril=girl;
 	}

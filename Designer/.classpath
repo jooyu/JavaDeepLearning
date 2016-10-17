@@ -3,6 +3,7 @@
 	<classpathentry kind="src" path="action"/>
 	<classpathentry kind="src" path="creatation"/>
 	<classpathentry kind="src" path="structure"/>
+	<classpathentry kind="src" path="springLearning"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
