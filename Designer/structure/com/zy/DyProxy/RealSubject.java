@@ -11,4 +11,7 @@ public class RealSubject implements Subject{
     public void somethingElse(String arg) {
         System.out.println("somethingElse: " + arg);
     }
+    public void test(String arg) {
+        System.out.println("test: " + arg);
+    }
 }

@@ -2,6 +2,8 @@ package com.zy.Builder;
 
 /**
  * The builder abstraction.
+ * 接口实现
+ * 设备生成器
  */
 interface CarBuilder {
     void setWheels(int wheels);
@@ -11,6 +13,7 @@ interface CarBuilder {
     Car getResult();
 }
 
+//造车实现
 class CarBuilderImpl implements CarBuilder {
     private Car car;
 

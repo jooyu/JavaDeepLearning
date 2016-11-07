@@ -1,6 +1,7 @@
 package com.zy.Builder;
 
 /**
+ * 向导器
  * 创建方法返回这个实例本身
  * @author eaves.zhu
  *
@@ -12,7 +13,9 @@ public class CarBuildDirector {
         this.builder = builder;
     }
 
-    public Car construct() {
+    //一个构建汽车的构造方法
+	public Car construct() {
+		
         builder.setWheels(4);
         builder.setColor("Red");
         return builder.getResult();
