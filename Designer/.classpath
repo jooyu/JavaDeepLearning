@@ -5,13 +5,16 @@
 	<classpathentry kind="src" path="structure"/>
 	<classpathentry kind="src" path="springLearning"/>
 	<classpathentry kind="src" path="jvm"/>
-	<classpathentry kind="src" path="grpc-test"/>
+	<classpathentry kind="src" path="thread"/>
 	<classpathentry kind="src" path="jdk"/>
+	<classpathentry kind="src" path="algo"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="asm-2.2.3.jar"/>
 	<classpathentry kind="lib" path="asm-commons-2.2.3.jar"/>
 	<classpathentry kind="lib" path="asm-util-2.2.3.jar"/>
 	<classpathentry kind="lib" path="cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="jcip-annotations-1.0.jar"/>
+	<classpathentry kind="lib" path="javax.servlet-1.0.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
