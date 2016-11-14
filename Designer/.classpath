@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="action"/>
 	<classpathentry kind="src" path="creatation"/>
-	<classpathentry kind="src" path="structure"/>
+	<classpathentry excluding="com/zy/Iterator/" kind="src" path="structure"/>
 	<classpathentry kind="src" path="springLearning"/>
 	<classpathentry kind="src" path="jvm"/>
 	<classpathentry kind="src" path="thread"/>
