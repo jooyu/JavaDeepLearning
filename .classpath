@@ -2,6 +2,8 @@
 <classpath>
 	<classpathentry kind="src" path="JVM/src/main/java"/>
 	<classpathentry kind="src" path="JVM/src/test/java"/>
+	<classpathentry kind="src" path="jdk/src/main/java"/>
+	<classpathentry kind="src" path="jdk/src/main/test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="JVM/target/test-classes"/>
 </classpath>
