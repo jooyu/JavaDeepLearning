@@ -15,8 +15,7 @@ public class Mutex implements Lock,java.io.Serializable {
 	private static class Sync extends AbstractQueuedSynchronizer{
 		 // 判断是否锁定状态
 		protected boolean isHeldExclusively(){
-			return getState()==1;
-			
+			return getState()==1;	
 		}
 		
 		// 尝试获取资源，立即返回。成功则返回true，否则false

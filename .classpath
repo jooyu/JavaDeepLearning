@@ -4,6 +4,7 @@
 	<classpathentry kind="src" path="JVM/src/test/java"/>
 	<classpathentry kind="src" path="jdk/src/main/java"/>
 	<classpathentry kind="src" path="jdk/src/main/test"/>
+	<classpathentry kind="src" path="NIO/src/main/java"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="lib/guava-23.0.jar"/>
 	<classpathentry kind="output" path="JVM/target/test-classes"/>
