@@ -34,12 +34,12 @@ public final class BlackMagic {
   /**
    * Returns Unsafe if available or throw a RuntimeException.
    */
-  public static sun.misc.Unsafe getUnsafe() {
+  public static Unsafe getUnsafe() {
     try {
       final Class<?> unsafeClass = Class.forName("sun.misc.Unsafe");
       final Field unsafeField = unsafeClass.getDeclaredField("theUnsafe");
       unsafeField.setAccessible(true);
-      return (sun.misc.Unsafe) unsafeField.get(null);
+      return (Unsafe) unsafeField.get(null);
     } catch (Throwable t) {
       throw new RuntimeException("Unsafe not available.", t);
     }

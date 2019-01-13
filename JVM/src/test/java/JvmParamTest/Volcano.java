@@ -10,7 +10,7 @@ public class Volcano {
 	   // Test test=new Test();
 	    System.out.println("Lava bytes:"+RamUsageEstimator.sizeOf(lava));
 	  //  System.out.println("test bytes:"+RamUsageEstimator.sizeOf(test));
-	    java.lang.Object jlo=new java.lang.Object();
+	    Object jlo=new Object();
 	    System.out.println("object:"+RamUsageEstimator.sizeOf(jlo));//空的对象 8+8
 	    System.out.println("float:"+RamUsageEstimator.sizeOf(new Float(1.0)));
 	    System.out.println("double:"+RamUsageEstimator.sizeOf(new Double(1.0)));
