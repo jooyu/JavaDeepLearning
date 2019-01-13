@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Algorithm" />
+        <module name="Designer" />
+        <module name="Jdk" />
+        <module name="Jvm" />
+        <module name="Nio" />
+        <module name="Proxy" />
+        <module name="Reflection" />
+        <module name="ThreadPool" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Algorithm" target="1.5" />
+      <module name="Designer" target="1.8" />
+      <module name="java" target="1.8" />
+      <module name="Jdk" target="1.5" />
+      <module name="Jvm" target="1.5" />
+      <module name="Nio" target="1.5" />
+      <module name="Proxy" target="1.5" />
+      <module name="Reflection" target="1.5" />
+      <module name="ThreadPool" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
